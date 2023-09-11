@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css.gg */
+@import url("https://css.gg/css");
+
+/* UNPKG */
+@import url("https://unpkg.com/css.gg/icons/icons.css");
+
+/* JSDelivr */
+@import url("https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css");
+
+body {
+  @apply bg-gray-900;
+  color: white;
+}
+
+.background-cards {
+  background: rgb(63, 64, 64);
+  border: 1px solid white;
+}
+
+.background-cards:hover {
+  background: rgb(252, 195, 0);
+  background: linear-gradient(
+    15deg,
+    rgba(252, 195, 0, 1) 0%,
+    rgba(255, 0, 0, 1) 66%
+  );
+}
